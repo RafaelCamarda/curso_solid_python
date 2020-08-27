@@ -1,4 +1,4 @@
-from repo import Repo
+from models.repo import Repo
 
 
 class RepoParser():
