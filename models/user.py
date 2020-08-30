@@ -3,6 +3,8 @@ class User():
         self._username = username
         self._email = email
 
-    @staticmethod
-    def members():
-        return ["username1", "username2", "team1", "team2"]
+    def pay_bill(self):
+        raise NotImplementedError
+
+    def code(self):
+        raise NotImplementedError

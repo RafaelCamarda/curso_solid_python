@@ -6,5 +6,9 @@ class Manager(User):
         super().__init__(username, email)
 
     @staticmethod
-    def members():
-        raise Exception("Member is not authorized to do this!")
+    def pay_bill():
+        "Paying bill..."
+
+    @staticmethod
+    def code():
+        pass

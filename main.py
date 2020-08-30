@@ -23,5 +23,3 @@ if __name__ == '__main__':
 
     member = Member('rafaelcamarda', 'rafael@test.com')
     print(member.members())
-    manager = Manager('rafaelcamarda', 'rafael@test.com')
-    print(manager.members())

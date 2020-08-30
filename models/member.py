@@ -8,3 +8,11 @@ class Member(User):
     @staticmethod
     def members():
         return ["username1", "username2", "team1", "team2"]
+
+    @staticmethod
+    def pay_bill():
+        pass
+
+    @staticmethod
+    def code():
+        "Coding..."
