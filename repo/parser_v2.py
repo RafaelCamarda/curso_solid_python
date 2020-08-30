@@ -1,7 +1,7 @@
 from models.repo import Repo
 
 
-class RepoParser2():
+class RepoParser():
     @classmethod
     def parse(cls, response):
         repos = []
