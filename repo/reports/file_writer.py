@@ -1,7 +1,7 @@
-class ReportsFileWriter():
+class ReportFileWriter():
 
     @staticmethod
-    def write_file(report):
-        file = open('reports.txt', 'w')
+    def write(report):
+        file = open('report.txt', 'w')
         file.write(report)
         file.close()

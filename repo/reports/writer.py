@@ -1,8 +1,11 @@
-from .file_writer import ReportsFileWriter
+from .file_writer import ReportFileWriter
 
 
-class ReportsWriter():
+class ReportWriter():
 
     @staticmethod
-    def write(report):
-        ReportsFileWriter.write_file(report)
+    def write(report, writer=ReportFileWriter):
+        # Lógica...
+        # Lógica...
+        # report = faz_alguma_operacao
+        writer.write(report)
